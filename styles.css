@@ -1,7 +1,8 @@
 body {
 	font-family: "Lato", Arial, sans-serif;
     font-size: 20px;
-    background: #888;
+    background: #eee;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h1 {
     font-size: 3.2em;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 #header p {
@@ -36,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu-bar ul {
     text-align: center;
+    padding: 0;
 }
 
 #menu-bar li {
@@ -57,11 +60,19 @@ h1, h2, h3, h4, h5, h6 {
     background: #ddd;
 }
 
+#container section:nth-child(even) {
+    background: #f8f8f8;
+}
+
+#container section:nth-child(odd) {
+    background: #fff;
+}
+
 section h2 {
     text-align: center;
-    font-size: 2.5em;
-    padding: 10px;
-    margin-bottom: 0;
+    font-size: 2em;
+    padding-top: 20px;
+    margin: 0;
 }
 
 .content-box {
@@ -70,14 +81,83 @@ section h2 {
     width: 60%;
     margin: 0 auto;
 }
+.content {
+    width: auto;
+}
 
 .content-box p {
     padding: 20px 25px;
 }
 
-.content-box img {
+.content-box #about-me-img {
     width: 30%;
     float: left;
     padding: 20px;
     display: inline-block;
+    vertical-align: middle;
+}
+
+#term {
+    display: inline-block;
+    width: 30%;
+}
+
+#term h3 {
+    margin: 10px 0;
+}
+
+#experience ul {
+    text-align: center;
+    padding: 0;
+}
+
+#experience li {
+    display: block;
+}
+
+#experience li img {
+    width: 25%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#experience li img:hover {
+    background: rgba(100,100,100,0.1);
+    border-radius: 15px;
+}
+
+#experience li p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#experience h4 {
+    text-decoration: underline;
+    color: #777;
+}
+
+#experience hr {
+    width: 100%;
+    margin: 20px auto;  
+}
+
+#education img {
+    width: 40%;
+}
+
+#education p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#education .content-box div {
+    display: inline-block;
+    width: 40%;
+}
+
+.courses ul {
+    text-align: center;
+}
+.courses li {
+    padding-bottom: 5px;
 }
