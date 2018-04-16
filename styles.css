@@ -1,7 +1,7 @@
 body {
 	font-family: "Lato", Arial, sans-serif;
     font-size: 20px;
-    background: #eee;
+    background: #fff;
     margin: 0 auto;
 }
 
@@ -9,24 +9,23 @@ h1, h2, h3, h4, h5, h6 {
 	color: #0069CB;
 }
 
-#container {
+main {
     width: 100%;
-    background: #fff;
 }
 
-#header {
+header {
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
-#header h1 {
+header h1 {
     font-size: 3.2em;
     margin: 0 auto;
     padding-top: 10px;
 }
 
-#header p {
+header p {
     color: #6f6f6f;
     font-size: 1em;
     margin-bottom: 1.5em;
@@ -65,11 +64,11 @@ section {
     padding-bottom: 20px;
 }
 
-#container section:nth-child(even) {
+main section:nth-child(even) {
     background: #f8f8f8;
 }
 
-#container section:nth-child(odd) {
+main section:nth-child(odd) {
     background: #fff;
 }
 
@@ -99,12 +98,12 @@ section h2 {
 }
 
 #about-me-box #about-me-text {
-    width: 30%;
+    width: 40%;
     margin-right: 4%;
 }
 
 #about-me-box #term {
-    width: 30%;
+    width: 20%;
 }
 
 #experience ul {
@@ -134,12 +133,12 @@ section h2 {
 }
 
 #experience li p {
-    width: 30%;
+    width: 40%;
     margin-right: 4%
 }
 
 #experience li h4 {
-    width: 30%;
+    width: 20%;
 }
 
 #education-content div:first-of-type {
@@ -147,7 +146,7 @@ section h2 {
 }
 
 #education #education-content {
-    width: 60%;
+    width: 70%;
     display: inline-block;
 }
 
@@ -157,7 +156,7 @@ section h2 {
 }
 
 #education img {
-    width: 30%;
+    width: 25%;
 }
 
 #education p {
