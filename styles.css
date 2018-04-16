@@ -10,12 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container {
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
     background: #fff;
 }
 
 #header {
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -50,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #ddd;
     background: #0069CB;
-    padding: 10px;;
+    padding: 10px;
     border: 2px solid #000;
     border-radius: 50px;
 }
@@ -58,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 #menu-bar a:hover {
     color: #0069CB;
     background: #ddd;
+}
+
+section {
+    padding-bottom: 20px;
 }
 
 #container section:nth-child(even) {
@@ -76,83 +81,78 @@ section h2 {
 }
 
 .content-box {
-    text-align: center;
-    overflow: hidden;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-}
-.content {
-    width: auto;
+    padding: 20px 0;
 }
 
-.content-box p {
-    padding: 20px 25px;
-}
-
-.content-box #about-me-img {
-    width: 30%;
-    float: left;
-    padding: 20px;
+#about-me-box > * {
     display: inline-block;
-    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-#term {
-    display: inline-block;
+#about-me-box img {
     width: 30%;
+    margin-right: 4%;
 }
 
-#term h3 {
-    margin: 10px 0;
+#about-me-box #about-me-text {
+    width: 30%;
+    margin-right: 4%;
+}
+
+#about-me-box #term {
+    width: 30%;
 }
 
 #experience ul {
-    text-align: center;
+    list-style-type: none;
+}
+
+#experience li > * {    
+    display: inline-block;
+    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #experience li {
-    display: block;
+    padding-bottom: 40px;
+}
+
+#experience li a {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    margin-right: 4%;
 }
 
 #experience li img {
-    width: 25%;
-    margin-top: 10px;
-    padding: 5px;
-}
-
-#experience li img:hover {
-    background: rgba(100,100,100,0.1);
-    border-radius: 15px;
+    width: 100%;
 }
 
 #experience li p {
-    width: 50%;
-    margin: 0 auto;
+    width: 30%;
+    margin-right: 4%
 }
 
-#experience h4 {
-    text-decoration: underline;
-    color: #777;
+#experience li h4 {
+    width: 30%;
 }
 
-#experience hr {
-    width: 100%;
-    margin: 20px auto;  
+#education-content {
+    width: 60%;
 }
 
 #education img {
-    width: 40%;
+    width: 30%;
 }
 
 #education p {
     margin-top: 0;
     padding-top: 0;
-}
-
-#education .content-box div {
-    display: inline-block;
-    width: 40%;
 }
 
 .courses ul {
