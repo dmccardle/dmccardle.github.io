@@ -142,8 +142,18 @@ section h2 {
     width: 30%;
 }
 
-#education-content {
+#education-content div:first-of-type {
+    margin-right: 10%;
+}
+
+#education #education-content {
     width: 60%;
+    display: inline-block;
+}
+
+#education-content .courses {
+    width: 40%;
+    display: inline-block;
 }
 
 #education img {
@@ -155,8 +165,13 @@ section h2 {
     padding-top: 0;
 }
 
+.courses h3 {
+    margin-bottom: 10px;
+}
+
 .courses ul {
     text-align: center;
+    margin-top: 0;
 }
 .courses li {
     padding-bottom: 5px;
