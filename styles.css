@@ -163,6 +163,7 @@ section h2 {
 #education p {
     margin-top: 0;
     padding-top: 0;
+    text-align: center;
 }
 
 .courses h3 {
@@ -177,11 +178,18 @@ section h2 {
     padding-bottom: 5px;
 }
 
+/*********************
+*
+*   MEDIA QUERIES
+*
+**********************
+*/
 
+/* Tablet size */
 @media screen and (max-width: 768px) {
     
     body {
-        font-size: 1em;
+        font-size: 18px;
     }
     
     header {
@@ -214,6 +222,7 @@ section h2 {
 
     #experience li img {
         width: 100%;
+        margin-bottom: 10px;
     }
     
     #experience li p {
@@ -224,5 +233,16 @@ section h2 {
 
     #experience li h4 {
         width: 35%;
+    }
+    
+    #education #education-content {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    #education img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
     }
 }
