@@ -14,7 +14,7 @@ main {
 }
 
 header {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -47,6 +47,7 @@ header p {
 }
 
 #menu-bar a {
+    display: inline-block;
     text-decoration: none;
     color: #ddd;
     background: #0069CB;
@@ -93,7 +94,7 @@ section h2 {
 }
 
 #about-me-box img {
-    width: 30%;
+    width: 25%;
     margin-right: 4%;
 }
 
@@ -103,7 +104,7 @@ section h2 {
 }
 
 #about-me-box #term {
-    width: 20%;
+    width: 25%;
 }
 
 #experience ul {
@@ -124,7 +125,7 @@ section h2 {
 #experience li a {
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 25%;
     margin-right: 4%;
 }
 
@@ -138,7 +139,7 @@ section h2 {
 }
 
 #experience li h4 {
-    width: 20%;
+    width: 25%;
 }
 
 #education-content div:first-of-type {
@@ -174,4 +175,54 @@ section h2 {
 }
 .courses li {
     padding-bottom: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size: 1em;
+    }
+    
+    header {
+        width: 80%;
+    }
+    
+    .content-box {
+        width: 80%;
+    }
+    
+    #about-me-box img {
+        width: 40%;
+        margin-right: 9%;
+    }
+    
+    #about-me-box #about-me-text {
+        width: 50%;
+        margin-right: 0;
+    }
+    
+    #about-me-box #term {
+        width: 100%;
+    }
+    
+    #experience li a {
+        width: 50%;
+        margin: 0 auto;
+        display: block; 
+    }
+
+    #experience li img {
+        width: 100%;
+    }
+    
+    #experience li p {
+        width: 50%;
+        margin-right: 13%;
+        font-size: 
+    }
+
+    #experience li h4 {
+        width: 35%;
+    }
 }
