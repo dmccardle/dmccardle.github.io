@@ -142,13 +142,22 @@ section h2 {
     width: 25%;
 }
 
-#education-content div:first-of-type {
-    margin-right: 10%;
+#education-box p {
+    display: inline-block;
+    width: 45%;
+    margin-right: 9%;
+    padding-top: 0;
+    text-align: center;
 }
 
-#education #education-content {
-    width: 70%;
-    display: inline-block;
+#education-box img {
+    width: 45%;
+}
+
+#education-content {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #education-content .courses {
@@ -156,17 +165,8 @@ section h2 {
     display: inline-block;
 }
 
-#education img {
-    width: 25%;
-}
-
-#education p {
-    margin-top: 0;
-    padding-top: 0;
-    text-align: center;
-}
-
 .courses h3 {
+    font-size: px;
     margin-bottom: 10px;
 }
 
@@ -243,6 +243,12 @@ section h2 {
     #education img {
         width: 50%;
         display: block;
+        margin: 0 auto;
+    }
+    
+    #education-box p {
+        display: block;
+        width: 50%;
         margin: 0 auto;
     }
 }
