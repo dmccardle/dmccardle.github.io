@@ -86,62 +86,83 @@ section h2 {
     padding: 20px 0;
 }
 
+/*================*/
+/*    About Me    */
+/*================*/
 #about-me-box > * {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    padding: 1.25%;
+    margin: 1.25%;
 }
 
 #about-me-box img {
+    float: left;
     width: 25%;
-    margin-right: 4%;
 }
 
 #about-me-box #about-me-text {
+    float: left;
     width: 40%;
-    margin-right: 4%;
+    text-align: center;
 }
 
 #about-me-box #term {
-    width: 25%;
+    float: left;
+    width: 20%;
+    text-align: center;
 }
 
+#term h3 {
+    height: 100%;
+}
+
+#about-me-box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*================*/
+/*   Experience   */
+/*================*/
 #experience ul {
     list-style-type: none;
 }
 
-#experience li > * {    
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.experience-item > * {
+    padding: 1.25%;
+    margin: 1.25%;
 }
 
-#experience li {
-    padding-bottom: 40px;
-}
-
-#experience li a {
-    margin: 0;
-    padding: 0;
+.experience-item a {
+    float: left;
     width: 25%;
-    margin-right: 4%;
 }
 
-#experience li img {
+.experience-item a img {
     width: 100%;
 }
 
-#experience li p {
+.experience-item p {
+    float: left;
     width: 40%;
-    margin-right: 4%
+    text-align: center;
 }
 
-#experience li h4 {
-    width: 25%;
+.experience-item h4 {
+    float: left;
+    width: 20%;
+    text-align: center;
 }
 
+.experience-item:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*================*/
+/*   Education    */
+/*================*/
 #education-box p {
     display: inline-block;
     width: 45%;
@@ -185,7 +206,7 @@ section h2 {
 **********************
 */
 
-/* Tablet size */
+/* Tablet size 
 @media screen and (max-width: 768px) {
     
     body {
