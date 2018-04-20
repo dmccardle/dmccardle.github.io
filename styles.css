@@ -163,6 +163,64 @@ section h2 {
 /*================*/
 /*   Education    */
 /*================*/
+
+#education-box img {
+    float: right;
+    width: 36%;
+    padding: 1%;
+    margin: 1%;
+}
+
+#education-content {
+    float: left;
+    width: 56%;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+#education-box p {
+    width: 96%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+
+.courses {
+    width: 45.5%;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    
+}
+
+.courses ul {
+    padding: 0;
+}
+
+.courses a {
+    text-decoration: none;
+    color: #0069CB;
+}
+
+.courses li {
+    display: block;
+    padding: 5%;
+    margin: 2% 1%;
+    border: 1px solid #0069CB;
+}
+
+.courses li:hover {
+    background: #DEDEDE;
+    color: auto;
+}
+
+#education:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/*
 #education-box p {
     display: inline-block;
     width: 45%;
