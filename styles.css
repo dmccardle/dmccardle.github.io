@@ -187,11 +187,10 @@ section h2 {
 }
 
 .courses {
-    width: 45.5%;
+    width: 44%;
     display: inline-block;
     padding: 1%;
     margin: 1%;
-    
 }
 
 .courses ul {
@@ -220,41 +219,28 @@ section h2 {
     content: "";
     clear: both;
 }
-/*
-#education-box p {
+
+/*================*/
+/*    Projects    */
+/*================*/
+
+#projects-box ul {
+    
+}
+
+#projects-box li {
+    float: left;
+    width: 46%;
     display: inline-block;
-    width: 45%;
-    margin-right: 9%;
-    padding-top: 0;
+    padding: 1%;
+    margin: 1%;
     text-align: center;
 }
 
-#education-box img {
-    width: 45%;
-}
-
-#education-content {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#education-content .courses {
-    width: 40%;
-    display: inline-block;
-}
-
-.courses h3 {
-    font-size: px;
-    margin-bottom: 10px;
-}
-
-.courses ul {
-    text-align: center;
-    margin-top: 0;
-}
-.courses li {
-    padding-bottom: 5px;
+#projects-box:after {
+    display: block;
+    content: "";
+    clear: both;
 }
 
 /*********************
