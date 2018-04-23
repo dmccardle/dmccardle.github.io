@@ -185,6 +185,17 @@ section h2 {
 .experience-item a img {
     width: 100%;
 }
+#qma {
+    text-align: center;
+}
+
+#qma:hover {
+    background: #dedede;
+}
+
+#qm {
+    width: 10%;
+}
 
 .experience-item p {
     float: left;
