@@ -267,6 +267,9 @@ section h2 {
 /*================*/
 /*    Projects    */
 /*================*/
+#projects-box ul {
+    padding-left: 0;
+}
 
 #projects-box li {
     float: left;
@@ -319,7 +322,7 @@ section h2 {
 
     #about-me-box #term {
         float: left;
-        width: 100%;
+        width: 95%;
         text-align: center;
     }
     
@@ -349,8 +352,73 @@ section h2 {
     }
     
     #education-content {
-        width: 100%;
+        width: 95%;
     }
     
     /* Projects - no changes */
+}
+
+@media screen and (max-width: 480px) {
+    
+    header, .content-box {
+        width: 90%;
+    }
+    
+    #links ul {
+        width: 75%;   
+    }
+    
+    #links li img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* About Me */
+    #about-me-box img {
+        width: 80%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    #about-me-box #about-me-text {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    /* Experience */
+    .experience-item a {
+        width: 65%;
+        margin: 0 17.5%;
+    }
+    
+    .experience-item p {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .experience-item h4 {
+        width: 90%;
+        margin: 0 5% 20px;
+    }
+    
+    /* Education */
+    #education-box img {
+        float: left;
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    .courses {
+        width: 80%;
+        display: inline-block;
+        padding:  0 5%;
+        margin: 0 5%;
+    }
+    
+    /* Projects */
+    #projects-box li {
+        width: 90%;
+        padding: 0 2.5%;
+        margin: 0 2.5%;
+    }
 }
