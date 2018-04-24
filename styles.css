@@ -35,6 +35,7 @@ header p {
 
 header h1 + p {
     font-style: italic;
+    color: #777;
 }
 
 #links ul {
