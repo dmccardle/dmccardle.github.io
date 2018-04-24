@@ -1,7 +1,7 @@
 body {
 	font-family: "Lato", Arial, sans-serif;
     font-size: 20px;
-    background: #fff;
+    background: #FFF;
     margin: 0 auto;
 }
 
@@ -29,9 +29,12 @@ header h1 {
 }
 
 header p {
-    color: #6f6f6f;
-    font-size: 1em;
+    color: #070707;
     margin-bottom: 1.5em;
+}
+
+header h1 + p {
+    font-style: italic;
 }
 
 #links ul {
@@ -74,7 +77,7 @@ header p {
 /*================*/
 #menu-bar {
     padding: 20px;
-    background: #00396E;
+    background: #3C3744;
 }
 
 #menu-bar ul {
@@ -84,22 +87,20 @@ header p {
 
 #menu-bar li {
     display: inline-block;
-    margin-right: 20px
+    width: 15%;
+    margin: 2%;
+    padding: 0 2%;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
 #menu-bar a {
-    display: inline-block;
     text-decoration: none;
-    color: #ddd;
-    background: #0069CB;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 50px;
+    color: #FFF8F0;
 }
 
 #menu-bar a:hover {
-    color: #0069CB;
-    background: #ddd;
+    color: #00FDDC;
 }
 
 /*================*/
@@ -107,6 +108,7 @@ header p {
 /*================*/
 section {
     padding-bottom: 20px;
+    border: 1px solid #DEDEDE;
 }
 
 main section:nth-child(even) {
@@ -185,15 +187,16 @@ section h2 {
 .experience-item a img {
     width: 100%;
 }
-#qma {
+
+#question-mark a {
     text-align: center;
 }
 
-#qma:hover {
-    background: #dedede;
+#question-mark a:hover {
+    background: #DEDEDE;
 }
 
-#qm {
+#question-mark img{
     width: 10%;
 }
 
@@ -314,9 +317,15 @@ section h2 {
     #links ul {
         width: 60%;   
     }
-    
+
     #links a {
         padding: 2.3%;
+    }
+    
+    #menu-bar li {
+        width: 40%;
+        margin: 2%;
+        padding: 0 2%;
     }
     
     /* About Me */
@@ -382,6 +391,11 @@ section h2 {
     #links li img {
         width: 40px;
         height: 40px;
+    }
+    
+    #menu-bar li {
+        width: 70%;
+        margin: 4%;
     }
     
     /* About Me */
