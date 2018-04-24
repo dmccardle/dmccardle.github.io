@@ -24,7 +24,7 @@ header {
 
 header h1 {
     font-size: 3.2em;
-    margin: 0 auto;
+    margin: 20px auto 0;
     padding-top: 10px;
 }
 
@@ -307,11 +307,17 @@ section h2 {
 **********************
 */
 
+@media screen and (max-width: 900px) {
+    header, .content-box {
+        width: 80%;
+    }
+}
+
 /* Tablet size */ 
 @media screen and (max-width: 768px) {
 
     header, .content-box {
-        width: 80%;
+        width: 85%;
     }
     
     #links ul {
