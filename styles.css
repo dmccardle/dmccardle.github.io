@@ -77,22 +77,20 @@ header h1 + p {
 /*   Navigation   */
 /*================*/
 #menu-bar {
-    padding: 20px;
     background: #3C3744;
 }
 
 #menu-bar ul {
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 
 #menu-bar li {
     display: inline-block;
     width: 15%;
-    margin: 2%;
-    padding: 0 2%;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
+    margin: 0 2%;
+    padding: 2%;
 }
 
 #menu-bar a {
@@ -100,8 +98,8 @@ header h1 + p {
     color: #FFF8F0;
 }
 
-#menu-bar a:hover {
-    color: #00FDDC;
+#menu-bar li:hover {
+    background-color: #0069CB;
 }
 
 /*================*/
@@ -152,6 +150,16 @@ section h2 {
     text-align: center;
 }
 
+#about-me-box #about-me-text a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#about-me-box #about-me-text a:hover{
+    color: #0069CB;
+    font-style: italic;
+}
+
 #about-me-box #term {
     float: left;
     width: 20%;
@@ -187,18 +195,6 @@ section h2 {
 
 .experience-item a img {
     width: 100%;
-}
-
-#question-mark a {
-    text-align: center;
-}
-
-#question-mark a:hover {
-    background: #DEDEDE;
-}
-
-#question-mark img{
-    width: 10%;
 }
 
 .experience-item p {
@@ -331,8 +327,8 @@ section h2 {
     
     #menu-bar li {
         width: 40%;
-        margin: 2%;
-        padding: 0 2%;
+        margin: 0%;
+        padding: 2% 2%;
     }
     
     /* About Me */
@@ -402,7 +398,8 @@ section h2 {
     
     #menu-bar li {
         width: 70%;
-        margin: 4%;
+        margin: 0%;
+        padding: 4%;
     }
     
     /* About Me */
