@@ -157,7 +157,6 @@ section h2 {
 
 #about-me-box #about-me-text a:hover{
     color: #0069CB;
-    font-style: italic;
 }
 
 #about-me-box #term {
@@ -234,11 +233,16 @@ section h2 {
     margin: 1%;
 }
 
-#education-box p {
+#education-content p {
     width: 96%;
     padding: 1%;
     margin: 1%;
     text-align: center;
+}
+
+#education-content p span {
+    font-style: italic;
+    color: #777;
 }
 
 .courses {
