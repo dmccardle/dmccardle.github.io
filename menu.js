@@ -10,7 +10,8 @@ function menuToggle() {
 // Setup
 window.onload = function() {
     linksBar = document.getElementById("menu-bar");
+    menuLink = linksBar.getElementsByTagName("A")[0];
     navLinks = linksBar.getElementsByTagName("UL")[0];
 
-    linksBar.onclick = menuToggle;
+    menuLink.onclick = menuToggle;
 };
