@@ -80,7 +80,7 @@ header h1 + p {
     background: #001C35;
 }
 
-.toggle {
+#toggle {
     width: 90%;
     padding: 10px 5%;
     background-color: #001C35;
@@ -411,11 +411,7 @@ section h2 {
         height: 40px;
     }
     
-    .toggle {
-        display: block;
-    }
-    
-    #menu-bar ul.active {
+    #toggle {
         display: block;
     }
     
