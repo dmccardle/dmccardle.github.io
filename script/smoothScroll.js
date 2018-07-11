@@ -5,11 +5,12 @@ $(document).ready(function() {
         event.preventDefault();
         
         var distance = Math.abs($(this).offset().top -  $(this.hash).offset().top);
-        var timeToScroll = 400;
+        var minTime = 300;
+        var maxTime = 1000;
+        var timeToScroll = 23 * Math.sqrt(distance);
         
-        if(distance > 1000) {
-            timeToScroll = 700;
-        }
+        timeToScroll = timeToScroll < minTime ? minTime : timeToScroll;
+        timeToScroll = timeToScroll > maxTime ? maxTime : timeToScroll;
         
         $('body, html').animate({
             scrollTop: $(this.hash).offset().top
