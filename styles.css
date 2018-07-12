@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     background: #FFF;
     margin: 0 auto;
+    padding-top: 350px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     width: 100%;
+    padding-top: 80px;
 }
 
 /*================*/
@@ -20,6 +22,8 @@ header {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    height: 350px;
+    background-color: aliceblue;
 }
 
 header h1 {
@@ -78,6 +82,20 @@ header h1 + p {
 /*================*/
 #menu-bar {
     background: #001C35;
+    height: 80px;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
+    margin-bottom: -80px;
+}
+
+#menu-bar, main {
+    position: relative;
+}
+
+.menu-bar-scrolled, header {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
 }
 
 #toggle {
