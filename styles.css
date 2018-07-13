@@ -344,7 +344,7 @@ section h2 {
 */
 
 @media screen and (max-width: 900px) {
-    header, .content-box {
+    .content-box {
         width: 80%;
     }
 }
@@ -352,7 +352,7 @@ section h2 {
 /* Tablet size */ 
 @media screen and (max-width: 768px) {
 
-    header, .content-box {
+    .content-box {
         width: 85%;
     }
     
@@ -428,9 +428,19 @@ section h2 {
     /* Projects - no changes */
 }
 
+@media screen and (max-width: 502px) {
+    body {
+        padding-top: 425px;
+    }
+    
+    header {
+        height: 425px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     
-    header, .content-box {
+    .content-box {
         width: 90%;
     }
     
