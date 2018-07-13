@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     width: 100%;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 /*================*/
@@ -82,10 +82,10 @@ header h1 + p {
 /*================*/
 #menu-bar {
     background: #001C35;
-    height: 80px;
+    height: 60px;
     z-index: 150;
     box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
-    margin-bottom: -80px;
+    margin-bottom: -60px;
 }
 
 #menu-bar, main {
@@ -96,6 +96,10 @@ header h1 + p {
     position: fixed !important;
     top: 0;
     width: 100%;
+}
+
+.menu-bar-scrolled {
+    height: 300px;
 }
 
 #toggle {
@@ -113,13 +117,15 @@ header h1 + p {
     text-align: center;
     padding: 0;
     margin: 0;
+    
 }
 
 #menu-bar li {
     display: inline-block;
     width: 19%;
     margin: 0;
-    padding: 2%;
+    vertical-align: middle;
+    padding: 18px;
 }
 
 #menu-bar a {
@@ -350,6 +356,10 @@ section h2 {
         width: 85%;
     }
     
+    main {
+        padding-top: 120px; 
+    }
+    
     #links ul {
         width: 60%;   
     }
@@ -358,10 +368,14 @@ section h2 {
         padding: 2.3%;
     }
     
+    #menu-bar {
+        height: 120px;
+        margin-bottom: -120px;
+    }
+    
     #menu-bar li {
         width: 40%;
         margin: 0%;
-        padding: 2% 2%;
     }
     
     /* About Me */
@@ -418,6 +432,15 @@ section h2 {
     
     header, .content-box {
         width: 90%;
+    }
+    
+    main {
+        padding-top: 54px; 
+    }
+    
+    #menu-bar {
+        height: 54px;
+        margin-bottom: -54px;
     }
     
     #links ul {
