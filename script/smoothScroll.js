@@ -5,16 +5,31 @@ $(document).ready(function() {
         event.preventDefault();
         
         var distance = Math.abs($(this).offset().top -  $(this.hash).offset().top);
-        var minTime = 300;
-        var maxTime = 1000;
-        var timeToScroll = 23 * Math.sqrt(distance);
         
-        timeToScroll = timeToScroll < minTime ? minTime : timeToScroll;
-        timeToScroll = timeToScroll > maxTime ? maxTime : timeToScroll;
+        var timeToScroll = getScrollTime(distance); 
         
         $('body, html').animate({
-            scrollTop: $(this.hash).offset().top - 50
+            scrollTop: $(this.hash).offset().top - getScrollOffset()
         }, timeToScroll);
         
     });
 });
+
+function getScrollTime(dist) {
+    var minTime = 300;
+    var maxTime = 1000;
+    var time = 23 * Math.sqrt(dist);
+    
+    time = time < minTime ? minTime : time;
+    time = time > maxTime ? maxTime : time;
+    
+    return time;
+}
+
+function getScrollOffset() {
+    var width = $(window).width();
+    if(width <= 768 && width > 480) {
+        return 120;
+    }
+    return 50;
+};
