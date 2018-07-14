@@ -137,6 +137,11 @@ header h1 + p {
     background-color: #0069CB;
 }
 
+.active {
+    color: aqua;
+    border-bottom: 0.5px solid aqua;
+}
+
 /*================*/
 /*    Content     */
 /*================*/
@@ -376,6 +381,12 @@ section h2 {
     #menu-bar li {
         width: 40%;
         margin: 0%;
+    }
+    
+    .active {
+        color: aqua;
+        border-top: 0.25px solid aqua;
+        border-bottom: 0.25px solid aqua;
     }
     
     /* About Me */

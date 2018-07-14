@@ -13,7 +13,7 @@ $(document).ready(function() {
         timeToScroll = timeToScroll > maxTime ? maxTime : timeToScroll;
         
         $('body, html').animate({
-            scrollTop: $(this.hash).offset().top
+            scrollTop: $(this.hash).offset().top - 50
         }, timeToScroll);
         
     });
