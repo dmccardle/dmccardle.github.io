@@ -12,6 +12,6 @@ $(document).ready(function() {
 
 function getOffset() {
     var width = $(window).width();
-    var offset = width > 502 ? 350 : 425;
+    var offset = width > 502 ? 385 : 475;
     return offset;
 }
