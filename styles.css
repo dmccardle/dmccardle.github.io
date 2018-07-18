@@ -59,6 +59,7 @@ header h1 + p {
     float: left;
     list-style-type: none;
     width: 28%;
+    height: 50px;
     padding: 2.4%;
     border: 1px solid #0069CB;
 }
@@ -73,8 +74,8 @@ header h1 + p {
 }
 
 #links li img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 
 #resume {
@@ -190,7 +191,7 @@ section h2 {
 
 #about-me-box img {
     float: left;
-    width: 25%;
+    width: 22.5%;
 }
 
 #about-me-box #about-me-text {
@@ -210,7 +211,7 @@ section h2 {
 
 #about-me-box #term {
     float: left;
-    width: 20%;
+    width: 22.5%;
     text-align: center;
 }
 
@@ -238,7 +239,7 @@ section h2 {
 
 .experience-item a {
     float: left;
-    width: 25%;
+    width: 22.5%;
 }
 
 .experience-item a img {
@@ -253,7 +254,7 @@ section h2 {
 
 .experience-item h4 {
     float: left;
-    width: 20%;
+    width: 22.5%;
     text-align: center;
 }
 
@@ -268,15 +269,15 @@ section h2 {
 /*================*/
 
 #education-box img {
-    float: right;
-    width: 36%;
+    float: left;
+    width: 44%;
     padding: 1%;
-    margin: 1%;
+    margin: 0 26%;
 }
 
 #education-content {
     float: left;
-    width: 56%;
+    width: 95%;
     text-align: center;
     padding: 1%;
     margin: 1%;
@@ -475,6 +476,10 @@ section h2 {
     
     #links ul {
         width: 75%;   
+    }
+    
+    #links a {
+        height: 40px;
     }
     
     #links li img {
