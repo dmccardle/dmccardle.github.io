@@ -23,7 +23,7 @@ header {
     margin: 0 auto;
     text-align: center;
     height: 385px;
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 header h1 {
@@ -140,7 +140,7 @@ header h1 + p {
 
 #menu-bar a {
     text-decoration: none;
-    color: #FFF8F0;
+    color: #EFF1F3;
 }
 
 #menu-bar li:hover {
@@ -148,8 +148,8 @@ header h1 + p {
 }
 
 .active {
-    color: aqua;
-    border-bottom: 0.5px solid aqua;
+    color: #57CBF9;
+    border-bottom: 0.5px solid #57CBF9;
 }
 
 /*================*/
@@ -394,9 +394,9 @@ section h2 {
     }
     
     .active {
-        color: aqua;
-        border-top: 0.25px solid aqua;
-        border-bottom: 0.25px solid aqua;
+        color: #57CBF9;
+        border-top: 0.25px solid #57CBF9;
+        border-bottom: 0.25px solid #57CBF9;
     }
     
     /* About Me */
