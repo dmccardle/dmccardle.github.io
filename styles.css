@@ -351,6 +351,19 @@ section h2 {
     clear: both;
 }
 
+/** Back to Top **/
+
+#back-to-top {
+    text-align: center;
+    cursor: pointer;
+    color: #0069CB;
+    font-size: 2em;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    display: none;
+}
+
 /*********************
 *
 *   MEDIA QUERIES
@@ -554,5 +567,9 @@ section h2 {
         width: 90%;
         padding: 0 2.5%;
         margin: 0 2.5%;
+    }
+    
+    #back-to-top {
+        font-size: 1.5em;
     }
 }

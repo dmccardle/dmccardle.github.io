@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    /* Menu links */
     var navigationLinks = $('.scroll');
     
     navigationLinks.on('click', function(event) {
@@ -10,8 +11,29 @@ $(document).ready(function() {
         
         $('body, html').animate({
             scrollTop: $(this.hash).offset().top - getScrollOffset()
-        }, timeToScroll);
+        }, timeToScroll);        
+    });
+    
+    /* Back to Top */
+    
+    var backToTop = $('#back-to-top');
+    $(window).scroll(function() {
+        if( $(this).scrollTop() > getOffset()) {
+            backToTop.fadeIn(300);
+        } else {
+            backToTop.fadeOut(300);
+        }
+    });
+    
+    backToTop.on('click', function(event){
+        event.preventDefault();
+        var scrollDistance = Math.abs($(window).scrollTop());
         
+        var topScrollTime = getScrollTime(scrollDistance);
+        
+        $('body, html').animate({
+            scrollTop: 0
+        }, topScrollTime); 
     });
 });
 
