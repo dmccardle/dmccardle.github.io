@@ -80,7 +80,8 @@ header h1 + p {
 
 #resume {
     text-decoration: none;
-    color: #070707;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 #resume:hover {
