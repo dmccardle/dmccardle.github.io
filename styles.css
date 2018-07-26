@@ -365,6 +365,21 @@ section h2 {
     display: none;
 }
 
+footer {
+    width: 100%;
+    background-color: #001C35;
+    color: #fff;
+    text-align: center;
+}
+footer > * {
+    display: inline-block;
+    padding: 20px;
+}
+footer span {
+    float: left;
+    padding-left: 10%;
+}
+
 /*********************
 *
 *   MEDIA QUERIES
