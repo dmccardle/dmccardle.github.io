@@ -360,7 +360,7 @@ section h2 {
     color: #0069CB;
     font-size: 2em;
     position: fixed;
-    bottom: 20px;
+    bottom: 45px;
     right: 2%;
     display: none;
 }
@@ -386,16 +386,20 @@ footer a {
 }
 
 footer a:hover {
-    color: #57CBF9;
+    background-color: #0069CB;
 }
 
 footer li {
     float: right;
 }
 
+footer li:nth-child(2) {
+    padding-right: 4%;
+}
+
 footer #name-link {
     float: left;
-    left:  10%;
+    padding-left: 4%;
 }
 
 /*********************
@@ -514,6 +518,25 @@ footer #name-link {
     
     main {
         padding-top: 54px; 
+    }
+    
+    footer li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer a {
+        padding: 14px 0;
+        margin: 0;
+    }
+    
+    footer li:nth-child(2) {
+    padding-right: 0;
+    }
+
+    footer #name-link {
+        float: none;
+        padding-left: 0;
     }
     
     #menu-bar {
