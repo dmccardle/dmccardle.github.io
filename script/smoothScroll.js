@@ -18,7 +18,7 @@ $(document).ready(function() {
     
     var backToTop = $('#back-to-top');
     $(window).scroll(function() {
-        if( $(this).scrollTop() > getOffset()) {
+        if( $(this).scrollTop() > 300) {
             backToTop.fadeIn(300);
         } else {
             backToTop.fadeOut(300);
@@ -47,11 +47,3 @@ function getScrollTime(dist) {
     
     return time;
 }
-
-function getScrollOffset() {
-    var width = $(window).width();
-    if(width <= 768 && width > 480) {
-        return 120;
-    }
-    return 50;
-};
