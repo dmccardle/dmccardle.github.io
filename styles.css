@@ -3,7 +3,6 @@ body {
     font-size: 20px;
     background: #FFF;
     margin: 0 auto;
-    padding-top: 385px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,8 +21,8 @@ header {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    height: 385px;
     background-color: #fff;
+    padding-bottom: 25px;
 }
 
 header h1 {
@@ -89,20 +88,12 @@ header h1 + p {
     z-index: 150;
     box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
     margin-bottom: -60px;
-}
-
-#menu-bar, main {
-    position: relative;
-}
-
-.menu-bar-scrolled, header {
-    position: fixed !important;
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 
-.menu-bar-scrolled {
-    height: 300px;
+#main {
+    position: relative;
 }
 
 #toggle {
@@ -410,6 +401,14 @@ footer #name-link {
 /* Tablet size */ 
 @media screen and (max-width: 768px) {
 
+    header {
+        width: 80%;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+    }
+    
     .content-box {
         width: 85%;
     }
@@ -484,17 +483,11 @@ footer #name-link {
     /* Projects - no changes */
 }
 
-@media screen and (max-width: 502px) {
-    body {
-        padding-top: 475px;
-    }
+@media screen and (max-width: 480px) {
     
     header {
-        height: 475px;
+        width: 90%;
     }
-}
-
-@media screen and (max-width: 480px) {
     
     .content-box {
         width: 90%;
@@ -515,7 +508,7 @@ footer #name-link {
     }
     
     footer li:nth-child(2) {
-    padding-right: 0;
+        padding-right: 0;
     }
 
     footer #name-link {
