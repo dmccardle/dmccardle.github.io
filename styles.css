@@ -88,6 +88,7 @@ header h1 + p {
     z-index: 150;
     box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
     margin-bottom: -60px;
+    -webkit-position: sticky; /* Safari */
     position: sticky;
     top: 0;
 }
@@ -322,7 +323,7 @@ section h2 {
 
 #projects-box li {
     float: left;
-    width: 46%;
+    width: 96%;
     display: inline-block;
     padding: 1%;
     margin: 1%;
