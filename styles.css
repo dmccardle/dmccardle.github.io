@@ -268,16 +268,32 @@ section h2 {
     margin: 1%;
 }
 
-#education-content p {
+#education-header {
     width: 96%;
     padding: 1%;
     margin: 1%;
     text-align: center;
 }
 
-#education-content p span {
+#education-header p {
+    margin: 0;
+}
+
+#education-header #tme {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+#education-header #uni-dates {
     font-style: italic;
     color: #777;
+}
+
+#education-header #gpa {
+    text-decoration: none;
+    color: #2D2D2D;
+    font-weight: bold;
+    font-size: 0.9em;
 }
 
 .courses {
