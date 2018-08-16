@@ -161,7 +161,7 @@ section h2 {
 }
 
 .content-box {
-    width: 70%;
+    width: 900px;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -253,26 +253,18 @@ section h2 {
 /*   Education    */
 /*================*/
 
-#education-box img {
-    float: left;
-    width: 44%;
-    padding: 1%;
-    margin: 0 26%;
-}
-
-#education-content {
-    float: left;
-    width: 95%;
-    text-align: center;
+#education-header {
+    width: 46%;
     padding: 1%;
     margin: 1%;
+    text-align: center;
+    float: left;
 }
 
-#education-header {
+#education-header img {
     width: 96%;
     padding: 1%;
-    margin: 1%;
-    text-align: center;
+    margin: 0 1%;
 }
 
 #education-header p {
@@ -296,30 +288,36 @@ section h2 {
     font-size: 0.9em;
 }
 
-.courses {
-    width: 44%;
+#education-courses {
+    width: 40%;
     display: inline-block;
     padding: 1%;
     margin: 1%;
+    text-align: center;
 }
 
-.courses ul {
+.course-block {
+    display: inline-block;
+    width: 100%;
+}
+
+#education-courses ul {
     padding: 0;
 }
 
-.courses a {
+#education-courses a {
     text-decoration: none;
     color: #0069CB;
 }
 
-.courses li {
+#education-courses li {
     display: block;
     padding: 5%;
     margin: 2% 1%;
     border: 1px solid #0069CB;
 }
 
-.courses li:hover {
+#education-courses li:hover {
     background: #DEDEDE;
     color: auto;
 }
@@ -411,7 +409,7 @@ footer #name-link {
 
 @media screen and (max-width: 900px) {
     .content-box {
-        width: 80%;
+        width: 700px;
     }
 }
 
@@ -427,7 +425,7 @@ footer #name-link {
     }
     
     .content-box {
-        width: 85%;
+        width: 450px;
     }
     
     main {
@@ -487,15 +485,27 @@ footer #name-link {
     }
     
     /* Education */
-    #education-box img {
+    #education-header img {
         float: left;
         width: 50%;
         margin: 0 25%;
     }
     
-    #education-content {
-        width: 95%;
+    #education-header {
+        width: 96%;
     }
+    
+    #education-courses {
+        width: 96%;
+    }
+    
+    .course-block {
+        width: 44%;
+        padding: 0 1%;
+        margin: 0 1%;
+    }
+    
+    
     
     /* Projects - no changes */
 }
@@ -507,7 +517,7 @@ footer #name-link {
     }
     
     .content-box {
-        width: 90%;
+        width: 350px;
     }
     
     main {
@@ -590,14 +600,11 @@ footer #name-link {
     #education-box img {
         float: left;
         width: 80%;
-        margin: 0 10%;
+        margin: 0 10%; 
     }
     
-    .courses {
-        width: 80%;
-        display: inline-block;
-        padding:  0 5%;
-        margin: 0 5%;
+    .course-block {
+        width: 96%;
     }
     
     /* Projects */
@@ -609,5 +616,10 @@ footer #name-link {
     
     #back-to-top {
         font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 350px) {
+    .content-box {
+        width: 300px;
     }
 }
