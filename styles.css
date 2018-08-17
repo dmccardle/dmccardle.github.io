@@ -532,9 +532,9 @@ footer #name-link {
         margin: 0 1%;
     }
     
-    
-    
-    /* Projects - no changes */
+    #projects-box li .text-block {
+    	width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -606,9 +606,6 @@ footer #name-link {
         width: 90%;
         margin: 0 5%;
     }
-    
-    /* Experience */
-
     
     /* Education */
     #education-box img {
