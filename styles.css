@@ -185,7 +185,12 @@ section h2 {
     text-align: center;
 }
 
-#about-me-box #about-me-text a{
+.text-block {
+	margin: 0 0 10px 0;
+	line-height: 1.2;
+}
+
+#about-me-box #about-me-text a {
     text-decoration: none;
     color: inherit;
 }
@@ -217,36 +222,46 @@ section h2 {
     list-style-type: none;
 }
 
-.experience-item > * {
-    padding: 1.25%;
-    margin: 1.25%;
+.experience-header {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
 }
 
-.experience-item a {
-    float: left;
-    width: 22.5%;
+.experience-text {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    text-align: center;
 }
 
-.experience-item a img {
+.experience-header a img {
     width: 100%;
 }
 
-.experience-item p {
-    float: left;
-    width: 40%;
-    text-align: center;
-}
-
-.experience-item h4 {
-    float: left;
-    width: 22.5%;
-    text-align: center;
+.experience-text p:nth-child(1) {
+	font-weight: bold;
 }
 
 .experience-item:after {
     content: "";
     display: block;
     clear: both;
+}
+
+#experience .content-box li {
+	border-bottom: 1px solid #BBB;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+
+#experience .content-box li:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#experience .content-box li:last-child {
+	border-bottom: none;
 }
 
 /*================*/
@@ -342,6 +357,12 @@ section h2 {
     padding: 1%;
     margin: 1%;
     text-align: center;
+}
+
+#projects-box li .text-block {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 #projects-box:after {
@@ -471,18 +492,24 @@ footer #name-link {
     }
     
     /* Experience */
-    .experience-item a {
-        width: 50%;
-        margin: 0 25%;
+    
+    .experience-header {
+    	width: 100%;
     }
     
-    .experience-item p {
-        width: 65%;
+    .experience-header h4 {
+     	width: 100%;
     }
-
-    .experience-item h4 {
-        width: 25%;
+    
+    .experience-text {
+    	width: 100%;
+    	margin: 0;
+    	padding: 0;
     }
+    
+    #experience .content-box li {
+		border-bottom: none;
+	}
     
     /* Education */
     #education-header img {
@@ -581,20 +608,7 @@ footer #name-link {
     }
     
     /* Experience */
-    .experience-item a {
-        width: 65%;
-        margin: 0 17.5%;
-    }
-    
-    .experience-item p {
-        width: 90%;
-        margin: 0 5%;
-    }
 
-    .experience-item h4 {
-        width: 90%;
-        margin: 0 5% 20px;
-    }
     
     /* Education */
     #education-box img {
@@ -609,9 +623,9 @@ footer #name-link {
     
     /* Projects */
     #projects-box li {
-        width: 90%;
-        padding: 0 2.5%;
-        margin: 0 2.5%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     
     #back-to-top {
