@@ -450,17 +450,32 @@ footer #name-link {
     }
     
     main {
-        padding-top: 120px; 
+        padding-top: 54px; 
     }
     
     #menu-bar {
-        height: 120px;
-        margin-bottom: -120px;
+        height: 54px;
+        margin-bottom: -54px;
+    }
+    
+    #toggle {
+        display: block;
+    }
+    
+    #menu-bar ul {
+        overflow: hidden;
+        background: #002B51;
+        display: none;
+    }
+    
+    #menu-bar ul.open {
+        height: auto;
     }
     
     #menu-bar li {
-        width: 40%;
+        width: 94%;
         margin: 0%;
+        padding: 3%;
     }
     
     .active {
@@ -547,10 +562,6 @@ footer #name-link {
         width: 350px;
     }
     
-    main {
-        padding-top: 54px; 
-    }
-    
     footer li {
         width: 100%;
         text-align: center;
@@ -568,31 +579,6 @@ footer #name-link {
     footer #name-link {
         float: none;
         padding-left: 0;
-    }
-    
-    #menu-bar {
-        height: 54px;
-        margin-bottom: -54px;
-    }
-    
-    #toggle {
-        display: block;
-    }
-    
-    #menu-bar ul {
-        overflow: hidden;
-        background: #002B51;
-        display: none;
-    }
-    
-    #menu-bar ul.open {
-        height: auto;
-    }
-    
-    #menu-bar li {
-        width: 94%;
-        margin: 0%;
-        padding: 3%;
     }
     
     /* About Me */

@@ -39,10 +39,11 @@ $(document).ready(function() {
 
 function getScrollOffset() {		
     var width = $(window).width();		
-    if(width <= 768 && width > 480) {		
+    if(width <= 480) {		
         return 120;		
+    } else {
+    	return 50;
     }		
-    return 50;		
 };
 
 function getScrollTime(dist) {
