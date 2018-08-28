@@ -1,11 +1,13 @@
 $(document).ready(function() {
     var $children = $("body").children();
-    var startTime = 1000;
-    var increment = 400;
 
-    $("body").fadeIn(startTime);
+    var time = 200;
+    $("body").show();
     $children.each(function() {
-        $(this).fadeIn(startTime);
-        startTime += increment;
+        var current = $(this);
+        setTimeout(function() {
+            current.fadeIn(400);
+        }, time);
+        time += 800;
     });
 })
