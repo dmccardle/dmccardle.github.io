@@ -1,0 +1,12 @@
+{
+    "skills": {
+        "languages": [
+            "Java", "HTML", "CSS", "JavaScript", "Python",
+            "SQL", "PHP", "TypeScript", "XML", "JSON"
+        ],
+        "technologies": [
+            "Git", "Jira", "JUnit", "jQuery", "Angular 4", "PostgreSQL", "MySQL", "Atlassian Tools",
+            "Bootstrap Framework", "Struts Framework"
+        ]
+    }
+}

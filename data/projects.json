@@ -1,0 +1,25 @@
+{
+    "projects":[
+        {
+            "name": "Portfolio",
+            "description": "Created the website you are currently on!",
+            "tech": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "JSON"
+            ],
+            "image":"img/portfolio.png"
+        },
+        {
+            "name": "Gym Buddy App",
+            "description": "Designed and developed a prototype app with the goal to help people connect with others to go to the gym with. This would be in hopes to increase the number of people that go to the gym regularily by remomving some common issues that prevent them from starting. Developed as part of a team project for a class on Managing Engineering and IT Projects.",
+            "tech":[
+                "Android Studio",
+                "Java", "MongoDB"
+            ],
+            "image": "img/gymbuddy.png"
+        }
+    ]
+}

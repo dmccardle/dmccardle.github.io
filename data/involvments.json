@@ -1,0 +1,19 @@
+{
+    "involvements":[
+        {
+            "title": "Maritime DevCon",
+            "image": "img/maritimedevcon.png",
+            "description": "This year I attended Maritime DevCon, a developer conference and networking event in Fredericton, New Brunswick, Canada. I was able to network with a lot of cool industry professionals from around the area and attended some information sessions."
+        },
+        {
+            "title": "Tournament Organizer - Super Smash Bros.",
+            "image": "img/melee.png",
+            "description": "I am a passionate fan of the video game Super Smash Brothers Melee and the fan community around it. As a result, I took an a leadership role in the community and starting organizing large regional tournaments and weekly competitions. While I also like competing in the tournaments myself, I like organizing them to make sure all attendees have a good experience."
+        },
+        {
+            "title": "Vice President - Neill House",
+            "image": "img/neillgroup.jpg",
+            "description": "In my second year of University, I was fortunate to be elected Vice President of my on campus residence. With this opportunity, I was able to help lead a team of 11 members to plan events for incoming students throughout the whole school year."
+        }
+    ]
+}
