@@ -19,6 +19,11 @@ main {
     padding-top: 60px;
 }
 
+main p {
+    line-height: 1.3em;
+    font-size: 0.8em;
+}
+
 /*================*/
 /*     Header     */
 /*================*/
@@ -96,10 +101,6 @@ header h1 + p {
     -webkit-position: sticky; /* Safari */
     position: sticky;
     top: 0;
-}
-
-#main {
-    position: relative;
 }
 
 #toggle {
@@ -187,6 +188,7 @@ section h2 {
 #about-me .content-box p {
     display: inline-block;
     margin: 0 auto;
+    width: 50%;
     
 }
 
@@ -198,6 +200,7 @@ section h2 {
     width: 49%;
     display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
 
 #skills .content-box ul {
@@ -221,6 +224,7 @@ section h2 {
     width: 49%;
     display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
 
 #projects .content-box ul {
