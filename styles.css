@@ -175,6 +175,10 @@ section h2 {
 /*    About Me    */
 /*================*/
 
+#about-me .content-box {
+    text-align: center;
+}
+
 #about-me .content-box img {
     width: 250px;
     vertical-align: middle;
@@ -183,8 +187,6 @@ section h2 {
 #about-me .content-box p {
     display: inline-block;
     margin: 0 auto;
-    text-align: center;
-    width: 50%;
     
 }
 
@@ -208,15 +210,53 @@ section h2 {
     margin: 5px;
     padding: 8px;
     border: 1px solid #0069CD;
+    border-radius: 5px;
 }
-
-/*================*/
-/*   Education    */
-/*================*/
 
 /*================*/
 /*    Projects    */
 /*================*/
+
+#projects .content-box {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+#projects .content-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects .content-box ul li {
+    font-size: 0.8em;
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #0069CD;
+    border-radius: 5px;
+}
+
+/*================*/
+/*  Involvements  */
+/*================*/
+
+#involvements .content-box  {
+    text-align: center;
+}
+
+#involvements .content-box img {
+    width: 200px;
+    vertical-align: middle;
+}
+
+#involvements .content-box p {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    
+}
 
 /** Back to Top **/
 
