@@ -19,6 +19,11 @@ main {
     padding-top: 60px;
 }
 
+main p {
+    line-height: 1.3em;
+    font-size: 0.8em;
+}
+
 /*================*/
 /*     Header     */
 /*================*/
@@ -98,10 +103,6 @@ header h1 + p {
     top: 0;
 }
 
-#main {
-    position: relative;
-}
-
 #toggle {
     width: 90%;
     padding: 10px 5%;
@@ -174,207 +175,99 @@ section h2 {
 /*================*/
 /*    About Me    */
 /*================*/
-#about-me-box > * {
-    padding: 1.25%;
-    margin: 1.25%;
-}
 
-#about-me-box img {
-    float: left;
-    width: 22.5%;
-}
-
-#about-me-box #about-me-text {
-    float: left;
-    width: 40%;
+#about-me .content-box {
     text-align: center;
 }
 
-.text-block {
-	margin: 0 0 10px 0;
-    line-height: 1.3;
-    font-size: 0.8em;
+#about-me .content-box img {
+    width: 250px;
+    vertical-align: middle;
+    margin: 0 10px;
 }
 
-#about-me-box #about-me-text a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#about-me-box #about-me-text a:hover{
-    color: #0069CB;
-}
-
-#about-me-box #term {
-    float: left;
-    width: 22.5%;
-    text-align: center;
-}
-
-#term h3 {
-    height: 100%;
-}
-
-#about-me-box:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-/*================*/
-/*   Experience   */
-/*================*/
-#experience ul {
-    list-style-type: none;
-}
-
-.experience-header {
-	display: inline-block;
-	width: 40%;
-	text-align: center;
-}
-
-.experience-text {
+#about-me .content-box p {
     display: inline-block;
+    margin: 0 auto;
     width: 50%;
-    float: right;
-    text-align: center;
-}
-
-.experience-header a img {
-    width: 100%;
-}
-
-.experience-text p:nth-child(1) {
-	font-weight: bold;
-}
-
-.experience-item:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-#experience .content-box li {
-	border-bottom: 1px solid #BBB;
-	margin: 20px 0;
-	padding: 20px 0;
-}
-
-#experience .content-box li:first-child {
-	margin-top: 0;
-	padding-top: 0;
-}
-
-#experience .content-box li:last-child {
-	border-bottom: none;
+    
 }
 
 /*================*/
-/*   Education    */
+/*     Skills     */
 /*================*/
 
-#education-header {
-    width: 46%;
-    padding: 1%;
-    margin: 1%;
-    text-align: center;
-    float: left;
-}
-
-#education-header img {
-    width: 96%;
-    padding: 1%;
-    margin: 0 1%;
-}
-
-#education-header p {
-    margin: 0;
-}
-
-#education-header #tme {
-    font-size: 0.8em;
-    margin-top: 10px;
-}
-
-#education-header #uni-dates {
-    font-style: italic;
-    color: #777;
-}
-
-#education-header #gpa {
-    text-decoration: none;
-    color: #2D2D2D;
-    font-weight: bold;
-    font-size: 0.9em;
-}
-
-#education-courses {
+#skills .content-box {
     width: 40%;
     display: inline-block;
-    padding: 1%;
-    margin: 1%;
     text-align: center;
+    vertical-align: top;
+    margin: 0 4.5%;
 }
 
-.course-block {
-    display: inline-block;
-    width: 100%;
-}
-
-#education-courses ul {
+#skills .content-box ul {
+    list-style-type: none;
     padding: 0;
 }
 
-#education-courses a {
-    text-decoration: none;
-    color: #0069CB;
-}
-
-#education-courses li {
-    display: block;
-    padding: 5%;
-    margin: 2% 1%;
-    border: 1px solid #0069CB;
-}
-
-#education-courses li:hover {
-    background: #DEDEDE;
-    color: auto;
-}
-
-#education:after {
-    display: block;
-    content: "";
-    clear: both;
+#skills .content-box ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #0069CD;
+    border-radius: 5px;
 }
 
 /*================*/
 /*    Projects    */
 /*================*/
-#projects-box ul {
-    padding-left: 0;
+
+#projects .content-box {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 4.5%;
 }
 
-#projects-box li {
-    float: left;
-    width: 96%;
+#projects .content-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects .content-box ul li {
+    font-size: 0.8em;
     display: inline-block;
-    padding: 1%;
-    margin: 1%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #0069CD;
+    border-radius: 5px;
+}
+
+#projects .content-box p {
+    padding: 0 5px;
+}
+
+/*================*/
+/*  Involvements  */
+/*================*/
+
+#involvements .content-box  {
     text-align: center;
 }
 
-#projects-box li .text-block {
-	width: 70%;
-	text-align: center;
-	margin: 0 auto;
+#involvements .content-box img {
+    width: 200px;
+    vertical-align: middle;
+    margin: 0 10px;
 }
 
-#projects-box:after {
-    display: block;
-    content: "";
-    clear: both;
+#involvements .content-box p {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    
 }
 
 /** Back to Top **/
@@ -389,6 +282,10 @@ section h2 {
     right: 2%;
     display: none;
 }
+
+/*================*/
+/*     Footer     */
+/*================*/
 
 footer {
     font-size: 0.7em;
@@ -431,8 +328,7 @@ footer #name-link {
 *
 *   MEDIA QUERIES
 *
-**********************
-*/
+*********************/
 
 @media screen and (max-width: 900px) {
     .content-box {
@@ -443,16 +339,16 @@ footer #name-link {
 /* Tablet size */ 
 @media screen and (max-width: 768px) {
 
+    .content-box {
+        width: 100%;
+    }
+
     header {
         width: 80%;
     }
     
     header h1 {
         font-size: 2.5em;
-    }
-    
-    .content-box {
-        width: 450px;
     }
     
     main {
@@ -491,71 +387,19 @@ footer #name-link {
     }
     
     /* About Me */
-    #about-me-box img {
-        float: left;
-        width: 35%;
+
+    /* Skills */
+
+    #skills .content-box {
+        width: 40%;
+        margin: 0 4.5%;
     }
 
-    #about-me-box #about-me-text {
-        float: left;
-        width: 55%;
-        text-align: center;
-    }
+    
+    
 
-    #about-me-box #term {
-        float: left;
-        width: 95%;
-        text-align: center;
-    }
+
     
-    #term h3 {
-        margin-bottom: 5px;
-    }
-    
-    /* Experience */
-    
-    .experience-header {
-    	width: 100%;
-    }
-    
-    .experience-header h4 {
-     	width: 100%;
-    }
-    
-    .experience-text {
-    	width: 100%;
-    	margin: 0;
-    	padding: 0;
-    }
-    
-    #experience .content-box li {
-		border-bottom: none;
-	}
-    
-    /* Education */
-    #education-header img {
-        float: left;
-        width: 50%;
-        margin: 0 25%;
-    }
-    
-    #education-header {
-        width: 96%;
-    }
-    
-    #education-courses {
-        width: 96%;
-    }
-    
-    .course-block {
-        width: 76%;
-        padding: 0 1%;
-        margin: 0 1%;
-    }
-    
-    #projects-box li .text-block {
-    	width: 100%;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -588,41 +432,43 @@ footer #name-link {
     }
     
     /* About Me */
-    #about-me-box img {
-        width: 80%;
-        margin: 5%;
-        padding: 5%;
+
+    #about-me .content-box p {
+        width: 100%;
+        margin-top: 15px;
     }
 
-    #about-me-box #about-me-text {
-        width: 90%;
-        margin: 0 5%;
+    /* Skills */
+
+    #skills .content-box {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        padding: 10px 0;
     }
-    
-    /* Education */
-    #education-box img {
-        float: left;
-        width: 80%;
-        margin: 0 10%; 
-    }
-    
-    .course-block {
-        width: 96%;
-    }
-    
     /* Projects */
-    #projects-box li {
+
+    #projects .content-box {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* Involvements */
+
+    #involvements .content-box {
+        padding: 10px 0;
+    }
+
+    #involvements .content-box p {
         width: 100%;
-        margin: 0;
-        padding: 0;
+        margin-top: 15px;
     }
     
-    #back-to-top {
-        font-size: 1.5em;
-    }
 }
 @media screen and (max-width: 350px) {
     .content-box {
-        width: 300px;
+        width: 300px !important;
     }
 }
