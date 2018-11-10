@@ -1,6 +1,6 @@
 body {
 	font-family: "Lato", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     background: #FFF;
     margin: 0 auto;
     display: none;
@@ -94,7 +94,6 @@ header h1 + p {
 /*================*/
 #menu-bar {
     background: #001C35;
-    height: 60px;
     z-index: 150;
     box-shadow: 0 2px 3px rgba(0,0,0, 0.4);
     margin-bottom: -60px;
@@ -218,6 +217,11 @@ section h2 {
     border-radius: 5px;
 }
 
+#skills .content-box ul li:hover {
+    background: #DEDEDE;
+}
+
+
 /*================*/
 /*    Projects    */
 /*================*/
@@ -242,6 +246,10 @@ section h2 {
     padding: 8px;
     border: 1px solid #0069CD;
     border-radius: 5px;
+}
+
+#projects .content-box ul li:hover {
+    background: #DEDEDE;
 }
 
 #projects .content-box p {
@@ -356,7 +364,6 @@ footer #name-link {
     }
     
     #menu-bar {
-        height: 54px;
         margin-bottom: -54px;
     }
     
