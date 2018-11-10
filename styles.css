@@ -183,6 +183,7 @@ section h2 {
 #about-me .content-box img {
     width: 250px;
     vertical-align: middle;
+    margin: 0 10px;
 }
 
 #about-me .content-box p {
@@ -197,10 +198,11 @@ section h2 {
 /*================*/
 
 #skills .content-box {
-    width: 49%;
+    width: 40%;
     display: inline-block;
     text-align: center;
     vertical-align: top;
+    margin: 0 4.5%;
 }
 
 #skills .content-box ul {
@@ -221,10 +223,11 @@ section h2 {
 /*================*/
 
 #projects .content-box {
-    width: 49%;
+    width: 40%;
     display: inline-block;
     text-align: center;
     vertical-align: top;
+    margin: 0 4.5%;
 }
 
 #projects .content-box ul {
@@ -241,6 +244,10 @@ section h2 {
     border-radius: 5px;
 }
 
+#projects .content-box p {
+    padding: 0 5px;
+}
+
 /*================*/
 /*  Involvements  */
 /*================*/
@@ -252,6 +259,7 @@ section h2 {
 #involvements .content-box img {
     width: 200px;
     vertical-align: middle;
+    margin: 0 10px;
 }
 
 #involvements .content-box p {
@@ -331,16 +339,16 @@ footer #name-link {
 /* Tablet size */ 
 @media screen and (max-width: 768px) {
 
+    .content-box {
+        width: 100%;
+    }
+
     header {
         width: 80%;
     }
     
     header h1 {
         font-size: 2.5em;
-    }
-    
-    .content-box {
-        width: 450px;
     }
     
     main {
@@ -379,10 +387,18 @@ footer #name-link {
     }
     
     /* About Me */
+
+    /* Skills */
+
+    #skills .content-box {
+        width: 40%;
+        margin: 0 4.5%;
+    }
+
     
-    /* Experience */
     
-    /* Education */
+
+
     
 }
 
@@ -416,14 +432,43 @@ footer #name-link {
     }
     
     /* About Me */
-    
-    /* Education */
 
+    #about-me .content-box p {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* Skills */
+
+    #skills .content-box {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
     /* Projects */
+
+    #projects .content-box {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* Involvements */
+
+    #involvements .content-box {
+        padding: 10px 0;
+    }
+
+    #involvements .content-box p {
+        width: 100%;
+        margin-top: 15px;
+    }
     
 }
 @media screen and (max-width: 350px) {
     .content-box {
-        width: 300px;
+        width: 300px !important;
     }
 }
