@@ -191,6 +191,7 @@ section h2 {
     display: inline-block;
     margin: 0 auto;
     width: 50%;
+    vertical-align: middle;
     
 }
 
@@ -277,7 +278,7 @@ section h2 {
     margin: 0 auto;
     text-align: center;
     width: 50%;
-    
+    vertical-align: middle;
 }
 
 /** Back to Top **/
