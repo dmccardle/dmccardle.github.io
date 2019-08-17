@@ -32,7 +32,7 @@ main p {
     position: relative;
     border-bottom: 1px dotted black;
     color: #0069CD;
-  }
+}
 
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -43,25 +43,24 @@ main p {
     border-radius: 6px;
     padding: 5px;
     font-size: 0.75em;
-    
-    /* Position the tooltip */
+
     position: absolute;
     z-index: 1;
     top: 100%;
     left: 50%;
     margin-left: -110px;
-  }
+}
 
-  .tooltip .tooltiptext a {
-      text-decoration: none;
-      color: inherit;
-  }
+.tooltip .tooltiptext a {
+    text-decoration: none;
+    color: inherit;
+}
 
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+}
 
-  .tooltip .tooltiptext::after {
+.tooltip .tooltiptext::after {
     content: " ";
     position: absolute;
     bottom: 100%;  /* At the top of the tooltip */
@@ -70,8 +69,7 @@ main p {
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent black transparent;
-  }
-
+}
 
 section {
     padding-bottom: 20px;
@@ -99,8 +97,6 @@ section h2 {
     padding: 20px 0;
 }
 
-/** Back to Top **/
-
 #back-to-top {
     text-align: center;
     cursor: pointer;
@@ -117,13 +113,8 @@ section h2 {
     margin: 0 auto !important;
     height: 400px !important;
     width: 60% !important;
+    overflow: hidden;
 }
-
-/*********************
-*
-*   MEDIA QUERIES
-*
-*********************/
 
 @media screen and (max-width: 900px) {
     .content-box {
@@ -143,6 +134,7 @@ section h2 {
     }
 }
 
+/* Mobile size */
 @media screen and (max-width: 480px) {
     .content-box {
         width: 350px;
@@ -153,6 +145,7 @@ section h2 {
         width: 80% !important;
     }
 }
+
 @media screen and (max-width: 350px) {
     .content-box {
         width: 300px !important;
