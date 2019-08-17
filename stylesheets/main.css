@@ -115,6 +115,11 @@ section h2 {
     overflow: hidden;
 }
 
+/* Fixes issue with twitter feed expanding generating white space after footer */
+body > iframe {
+    display: none !important;
+}
+
 @media screen and (max-width: 900px) {
     .content-box {
         width: 700px;
