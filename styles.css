@@ -246,32 +246,30 @@ section h2 {
 }
 
 /*================*/
-/*     Skills     */
+/*    Interests   */
 /*================*/
 
-#skills .content-box {
-    width: 40%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    margin: 0 4.5%;
-}
-
-#skills .content-box ul {
+#interests .content-box ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
-#skills .content-box ul li {
-    display: inline-block;
-    margin: 5px;
+#interests .content-box ul li {
+    text-align: center;
     padding: 8px;
     border: 1px solid #0069CD;
     border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
 }
 
-#skills .content-box ul li:hover {
+#interests .content-box ul li:hover {
     background: #DEDEDE;
+}
+
+#interests .content-box ul li#ac:hover {
+    background: #E3F1FF;
 }
 
 
