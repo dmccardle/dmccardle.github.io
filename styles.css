@@ -24,6 +24,50 @@ main p {
     font-size: 0.8em;
 }
 
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+    color: #0069CD;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 0.75em;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -110px;
+  }
+
+  .tooltip .tooltiptext a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
 /*================*/
 /*     Header     */
 /*================*/
@@ -199,10 +243,6 @@ section h2 {
 #about-me .content-box ul li {
     margin: 5px;
     padding: 8px;
-}
-
-#about-me ul li > span {
-    color: #0069CD;
 }
 
 /*================*/
