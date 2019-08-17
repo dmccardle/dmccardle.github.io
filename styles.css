@@ -367,6 +367,13 @@ section h2 {
     display: none;
 }
 
+#twitter-feed iframe {
+    display: block !important;
+    margin: 0 auto !important;
+    height: 400px !important;
+    width: 60% !important;
+}
+
 /*================*/
 /*     Footer     */
 /*================*/
@@ -548,6 +555,10 @@ footer #name-link {
         margin-top: 15px;
     }
     
+    #twitter-feed iframe {
+        height: 350px !important;
+        width: 80% !important;
+    }
 }
 @media screen and (max-width: 350px) {
     .content-box {
