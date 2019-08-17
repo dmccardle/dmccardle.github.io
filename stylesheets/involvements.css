@@ -1,0 +1,48 @@
+#involvements .content-box ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#involvements .content-box ul li {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #0069CD;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+#involvements .content-box ul li.opened {
+    background: #DEDEDE;
+}
+
+#involvements .content-box div {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+}
+
+#involvements #hockey-pic {
+    width: 75%;
+}
+
+#involvements #goalie-quote {
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    #involvements .content-box div {
+        width: 75%;
+    }
+
+    #involvements .content-box {
+        padding: 10px 0;
+    }
+
+    #involvements .content-box p {
+        width: 100%;
+        margin-top: 15px;
+    }
+}

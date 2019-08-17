@@ -1,0 +1,160 @@
+body {
+	font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    background: #FFF;
+    margin: 0 auto;
+    display: none;
+}
+
+body > * {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0069CB;
+}
+
+main {
+    width: 100%;
+    padding-top: 60px;
+}
+
+main p {
+    line-height: 1.3em;
+    font-size: 0.8em;
+}
+
+.hidden {
+    display: none;
+}
+
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+    color: #0069CD;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 0.75em;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -110px;
+  }
+
+  .tooltip .tooltiptext a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
+
+section {
+    padding-bottom: 20px;
+    border: 1px solid #DEDEDE;
+}
+
+main section:nth-child(even) {
+    background: #f8f8f8;
+}
+
+main section:nth-child(odd) {
+    background: #fff;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.content-box {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/** Back to Top **/
+
+#back-to-top {
+    text-align: center;
+    cursor: pointer;
+    color: #0069CB;
+    font-size: 2em;
+    position: fixed;
+    bottom: 45px;
+    right: 2%;
+    display: none;
+}
+
+#twitter-feed iframe {
+    display: block !important;
+    margin: 0 auto !important;
+    height: 400px !important;
+    width: 60% !important;
+}
+
+/*********************
+*
+*   MEDIA QUERIES
+*
+*********************/
+
+@media screen and (max-width: 900px) {
+    .content-box {
+        width: 700px;
+    }
+}
+
+/* Tablet size */ 
+@media screen and (max-width: 768px) {
+
+    .content-box {
+        width: 100%;
+    }
+    
+    main {
+        padding-top: 54px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-box {
+        width: 350px;
+    }
+    
+    #twitter-feed iframe {
+        height: 350px !important;
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .content-box {
+        width: 300px !important;
+    }
+}
