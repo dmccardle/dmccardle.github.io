@@ -12,11 +12,3 @@
     width: fit-content;
     margin: 5px auto;
 }
-
-#interests .content-box ul li:hover {
-    background: #DEDEDE;
-}
-
-#interests .content-box ul li#ac:hover {
-    background: #E3F1FF;
-}
