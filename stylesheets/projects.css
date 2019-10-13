@@ -25,6 +25,7 @@
 }
 
 #projects .content-box ul li:hover {
+    cursor: default;
     background: #DEDEDE;
 }
 

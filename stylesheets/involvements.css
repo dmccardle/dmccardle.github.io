@@ -13,6 +13,11 @@
     margin: 5px auto;
 }
 
+#involvements .content-box ul li:hover {
+    cursor: pointer;
+    background: #DEDEDE;
+}
+
 #involvements .content-box ul li.opened {
     background: #DEDEDE;
 }
