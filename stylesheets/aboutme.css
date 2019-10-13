@@ -31,9 +31,9 @@
 }
 
 @media screen and (max-width: 480px) {
-    #about-me .content-box p {
-        width: 100%;
-        margin-top: 15px;
+    #about-me .content-box ul {
+        width: 90%;
+        margin: 0 auto;
     }
 
     #about-me .content-box img {
