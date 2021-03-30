@@ -16,10 +16,6 @@ header p {
     color: #070707;
 }
 
-header h1 + p {
-    color: #777;
-}
-
 #links ul {
     width: 100%;
     padding: 0;
@@ -49,7 +45,7 @@ header h1 + p {
     color: #777;
 }
 
-#resume {
+header > a {
     text-decoration: none;
     color: #2D2D2D;
     font-weight: bold;
@@ -57,7 +53,7 @@ header h1 + p {
     line-height: 2em;
 }
 
-#resume:hover {
+header > a:hover {
     text-decoration: underline;
 }
 
